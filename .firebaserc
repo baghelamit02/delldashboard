@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "delldashboard-d5601": {
+      "hosting": {
+        "my-app": [
+          "delldashboard-d5601"
+        ]
+      }
+    }
+  }
+}

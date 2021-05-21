@@ -1,0 +1,159 @@
+/* You can add global styles to this file, and also import other style files */
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+  .bg-dark
+  {
+
+    background-color: #7a92fd!important;
+  }
+.thead-light th {
+    background-color: #7a92fd !important;
+    color: #fff !important;
+  }
+  body
+  {
+    background-color:#aabfe933 !important;
+    color: black  !important;
+  }
+  .whitebackground
+  {
+
+    background-color: #fff;
+  }
+  .nav-item
+  {
+    background-color: #fff  !important;
+  }
+  .zindexmax
+  {
+
+    z-index: 99999;
+  }
+  .zindexmin
+  {
+    z-index: 1  !important;
+  }
+  .zindexmid
+  {
+    z-index: 100  !important;
+  }
+  .promo-popup.hidden
+  {
+
+    bottom:-141px !important;
+  }
+  .colorblue
+  {
+      color:#011570 !important;
+  }
+  .bigfont
+  {
+
+    font-size:18px !important;
+  }
+  a
+  {
+
+    font-size: 15px !important;
+  }
+  .mediumfont
+  {
+    font-size:14px !important;
+  }
+  @media screen and (max-width: 800px) {
+    .hideTopMenu {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+    .menuCorrection
+    {
+      z-index: 9999;
+    position: absolute;
+    background: white;
+    padding-left: 20px;
+    width: 200px;;
+    }
+    .adjustMenu
+    {
+      width: 300px !important;
+      padding-left: 28px !important;
+    }
+    .adjustMenuTab
+    {
+      width: 200px !important;
+      padding-left: 28px !important;
+    }
+    .adjustUserProfile
+    {
+      width: 166px !important;
+    }
+
+  }
+  @media screen and (max-width: 400px) {
+    .adjustUserProfile
+    {
+      width: 195px !important;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .showUserProfile {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+    .adjustMenu
+    {
+      width: 300px !important;
+      padding-left: 28px !important;
+    }
+    .adjustMenuSmall
+    {
+      width: 300px !important;
+      padding-left: 28px !important;
+    }
+    .adjustMenuTab
+    {
+      width: 200px !important;
+      padding-left: 28px !important;
+    }
+    
+  }
+  p
+  {
+    font-size: 13px !important;
+  }
+  .divcentre
+  {
+    float: none;
+    margin: 0 auto;
+  }
+ .modal-dialog
+ {
+   /* margin-top: 120px; */
+   
+ }
+ .keepdivright
+ {
+  position: absolute; /*or fixed*/
+  right: 0px;
+ }
+ .nav-link
+ {
+   /* color: black !important; */
+ }
+.adjustSearch
+{
+  padding-top: 28px;
+}
